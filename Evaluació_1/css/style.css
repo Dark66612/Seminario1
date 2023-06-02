@@ -1,0 +1,13 @@
+#Bienvenido{
+    text-align: justify;
+}
+
+html{
+    background-color:rgb(145, 145, 145) ;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+}

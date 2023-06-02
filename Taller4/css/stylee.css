@@ -1,0 +1,105 @@
+body {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  height: 620px;
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  background-color: #000;
+}
+header {
+  width: 400px;
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: left;
+  height: 172px;
+  background-color: white;
+}
+h3 {
+  text-align: center;
+}
+.cliente {
+  position: absolute;
+  top: 70px;
+  right: 10px;
+}
+
+.venta {
+  width: auto;
+  position: absolute;
+  left: 50px;
+  top: 10px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+.tabla {
+  position: absolute;
+  top: 265px;
+  left: 10px;
+  right: 10px;
+  height: 340px;
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: left;
+  background-color: white;
+}
+
+th,
+td {
+  width: auto;
+  text-align: center;
+  vertical-align: top;
+  border: 1px solid #000;
+}
+
+input {
+  border: none;
+  text-align: left;
+}
+
+.sumatoria {
+  width: auto;
+  position: absolute;
+  right: 55px;
+  top: 255px;
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+.operaciones {
+  width: 110px;
+}
+h1 {
+  background-color: grey;
+  margin: 1px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#ferreteria {
+  position: absolute;
+  right: 434px;
+  top: 71px;
+  width: 494px;
+  height: 194px;
+}
+th{
+    background-color: rgb(189, 189, 189);
+}
+textarea{
+  position: absolute;
+  left: 50px;
+  top: 255px;
+  right: 250px;
+  
+  height: 79px
+}
