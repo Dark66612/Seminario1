@@ -5,6 +5,9 @@ class MaquinaExpendedora {
     this.p2 = new Producto("20", "Jugo Hit", 2400);
     this.p3 = new Producto("30", "Chocolatina Jet", 700);
     this.p4 = new Producto("40", "Galletas Festival", 1000);
+    this.p5 = new Producto("40", "Jugo Hit", 1000);
+    this.p6 = new Producto("40", "Choclitos", 1000);
+
   }
 
   darProducto1() {
@@ -105,7 +108,11 @@ class MaquinaExpendedora {
       this.p1.darCantidadUnidadesVendidas() +
       this.p2.darCantidadUnidadesVendidas() +
       this.p3.darCantidadUnidadesVendidas() +
-      this.p4.darCantidadUnidadesVendidas();
+      this.p4.darCantidadUnidadesVendidas()+
+      this.p5.darCantidadUnidadesVendidas()+
+      this.p6.darCantidadUnidadesVendidas();
+
+
     return cantidadTotal;
   }
 
@@ -114,7 +121,10 @@ class MaquinaExpendedora {
       this.p1.darCantidadUnidadesVendidas() * this.p1.darPrecio() +
       this.p2.darCantidadUnidadesVendidas() * this.p2.darPrecio() +
       this.p3.darCantidadUnidadesVendidas() * this.p3.darPrecio() +
-      this.p4.darCantidadUnidadesVendidas() * this.p4.darPrecio();
+      this.p4.darCantidadUnidadesVendidas() * this.p4.darPrecio() +
+      this.p5.darCantidadUnidadesVendidas() * this.p5.darPrecio() +
+      this.p6.darCantidadUnidadesVendidas() * this.p6.darPrecio();
+
     return valorVentas;
   }
 }
